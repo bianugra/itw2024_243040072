@@ -43,7 +43,6 @@ body {
     background-color: lightskyblue;
     color: white;
 }
-
 .hero {
     height: 280px;
     background-image: url(img/hero.jpg);
@@ -71,7 +70,6 @@ body {
     color: salmon;
     text-decoration: none;
 }
-
 .content p {
     margin-bottom: 20px;
     font-size: 14px;
@@ -80,7 +78,6 @@ body {
     background-color: #333;
     padding: 10px;
 }
-
 .footer .copy {
     color: #eaeaea;
     text-align: center;
