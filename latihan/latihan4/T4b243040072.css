@@ -1,0 +1,131 @@
+body {
+    font: 16px/28px Montserrat, sans-serif ;
+    background: radial-gradient(circle, #191947, #06050A);
+    
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background-color: #21272E;
+}
+.header {
+    padding-top: 5px;
+    padding-left: 20px;
+    
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 10px;
+    
+}   
+
+.header ul { 
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E8CB52;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: #E8CB52;
+    color: white;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.hero {
+    height: 280px;
+    background-image: url(img/RSHB-01.jpg);
+    background-size: cover;
+    background-position: 0, 0;
+    border-top: 5px solid #B3A566;
+    border-bottom : 5px solid #6770BC;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -20px;
+}
+
+.content .penulis a {
+    color: #E8CB52;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+}
+
+
+.gambar1 {
+    display: flex;
+    
+}
+
+.gambar1 img {
+    width: 380px;
+    height: 260px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border: 3px solid #6770BC;
+}
+
+.gambar2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.gambar2 img {
+    width: 380px;
+    height: 260px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: 3px solid #E8CB52;
+}
+
+.source {
+    font-style: italic;
+    color: #E8CB52;
+}
+
+.footer {
+    color: #eaeaea;
+    text-align: center; 
+    margin-top: 20px;
+    font-style: italic;
+
+}
