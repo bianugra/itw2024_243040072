@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+
+
+<header class="header">
+<div class="hero">
+    <h2 class="heading">Black Out</h2>
+    <p class="sub-heading"> Polo & Sweatshirt</p>
+</div>
+<div class="features feature-1">
+    <h4 class="price">IDR 1.050.000</h4>
+    <P class="item">Polo Shirt</P>
+</div>
+<div class="features feature-2">
+    <h4 class="price">IDR 900.000</h4>
+    <p class="item">Sweatshirt</p>
+</div>
+
+</header>
+
+<nav class="menu">
+    <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+    <div class="brand">
+        <h1>Black Out Merch</h1>
+    </div>
+    <ul class="menu-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+    </ul>
+</nav>
+
+<section class="services">
+    <div class="service">
+        <div class="icon">📷</div>
+        <h3>City-Scape</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut inventore a magni fuga hic?</p>
+    </div>
+    <div class="service">
+        <div class="icon">🍀</div>
+        <h3>Clover</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut inventore a magni fuga hic?</p>
+    </div>
+    <div class="service">
+        <div class="icon">🍒</div>
+        <h3>Ease Out</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ut inventore a magni fuga hic?</p>
+    </div>
+</section>
+<section class="gallery">
+    <h2>Gallery</h2> 
+    <img src="CS.JPG">
+    <img src="KK.jpg">
+    <img src="HAT.jpg">
+    <img src="TOBEN.JPG">
+    <img src="ZZARO.jpg">
+    <img src="socks-01.jpg">
+    
+</section>
+
+</div>
+<script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul')
+
+menuToggle.addEventListener('click', function(){
+    nav.classList.toggle('slide')
+});
+</script>
+
+</body>
+</html>
